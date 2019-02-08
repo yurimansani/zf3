@@ -37,4 +37,5 @@ if (file_exists(__DIR__ . '/../config/development.config.php')) {
 }
 
 // Run the application!
+//outra alteracao
 Application::init($appConfig)->run();
