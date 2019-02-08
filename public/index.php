@@ -2,7 +2,7 @@
 
 use Zend\Mvc\Application;
 use Zend\Stdlib\ArrayUtils;
-
+// alterar aqyui
 /**
  * This makes our life easier when dealing with paths. Everything is relative
  * to the application root now.
@@ -37,4 +37,5 @@ if (file_exists(__DIR__ . '/../config/development.config.php')) {
 }
 
 // Run the application!
+//outra alteracao
 Application::init($appConfig)->run();
